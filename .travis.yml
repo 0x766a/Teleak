@@ -7,6 +7,6 @@
       - tar xf arduino-1.8.5-linux64.tar.xz
       - sudo mv arduino-1.8.5 /usr/local/share/arduino
       - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
-      - git clone git@github.com:amperka/TVout.git /usr/local/share/arduino/libraries
+      - git clone git@github.com:amperka/TVout.git /usr/local/share/arduino/libraries/TVout
     script:
       - arduino --verify --board arduino:avr:uno $PWD/Teleak.ino
